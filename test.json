@@ -1,0 +1,20 @@
+[{
+  "light85" : {
+    "opacity":0.85
+  },
+  "light70" : {
+    "opacity":0.7
+  },
+  "light55" : {
+    "opacity":0.55
+  },
+  "light40" : {
+    "opacity":0.4
+  },
+  "light25" : {
+    "opacity":0.25
+  },
+  "light10" : {
+    "opacity":0.1
+  }
+}]
