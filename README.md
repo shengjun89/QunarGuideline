@@ -2,43 +2,47 @@
 
 ## 1.颜色加深方法函数源码
 
-'' `dark = (a,b)->`
-'' `if b-100>0 then b==100 and if b<0 then b==0 else`
-'' `originColor = new Color(a)`
-'' `newarr = originColor.toHslString().substr(4,14).split(",")`
-'' `newParseArr = []`
-'' `for i in newarr`
-'' `newParseArr.push(parseFloat(i))`
-'' `return new Color(h: newParseArr[0], s: newParseArr[1]*(1-b*0.01)*0.01, l: newParseArr[2]*0.01).toHexString()`
+#颜色加深
+`dark = (a,b)->
+	if b-100>0 then b==100 and if b<0 then b==0 else
+		originColor = new Color(a)
+		newarr = originColor.toHslString().substr(4,14).split(",")
+		newParseArr = []
+		for i in newarr
+			newParseArr.push(parseFloat(i))
+		return new Color(h: newParseArr[0], s: newParseArr[1]*(1-b*0.01)*0.01, l: newParseArr[2]*0.01).toHexString()`
+
 
 #### .调用方法；引入上面代码块，执行命令
 
-'' `dark(a,b)`
-'' 
-'' a 为当前原始颜色，HEX16进制色值或rgba
-'' b为要加深的程度  最大为100，最小为0
+`dark(color,value)`
+
+a 为当前原始颜色，HEX16进制色值或rgba
+b为要加深的程度  最大为100，最小为0
 
 
 ## 2.颜色减淡方法函数源码
 
-'' `light = (a,b)->`
-'' `if b-100>0 then b==100 and if b<0 then b==0 else`
-'' `originColor = new Color(a)`
-'' `newarr = originColor.toHslString().substr(4,14).split(",")`
-'' `newParseArr = []`
-'' \`       \`
-'' `for i in newarr`
-'' `newParseArr.push(parseFloat(i))`
-'' \`       \`
-'' `return new Color(h: newParseArr[0], s: newParseArr[1]*0.01, l: newParseArr[2]*(1+b*0.01)*0.01).toHexString()`
+#颜色变浅
+
+`light = (a,b)->
+	if b-100>0 then b==100 and if b<0 then b==0 else
+		originColor = new Color(a)
+		newarr = originColor.toHslString().substr(4,14).split(",")
+		newParseArr = []
+		
+		for i in newarr
+			newParseArr.push(parseFloat(i))
+		
+		return new Color(h: newParseArr[0], s: newParseArr[1]*0.01, l: newParseArr[2]*(1+b*0.01)*0.01).toHexString()`
 
 
 #### 调用方法；引入上面代码块，执行命令
 
-'' `light(a,b)`
-'' 
-'' a 为当前原始颜色，HEX16进制色值或rgba
-'' b为要加深的程度  最大为100，最小为0
+`light(color,value)`
+
+a 为当前原始颜色，HEX16进制色值或rgba
+b为要加深的程度  最大为100，最小为0
 
 
 
