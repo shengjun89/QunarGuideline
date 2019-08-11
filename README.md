@@ -1,5 +1,5 @@
 
-(img)
+![](http://sjnk88.com/wp-content/uploads/2019/08/DLS00gif.gif)
 
 # 一、主要函数
 
@@ -50,6 +50,12 @@ light = (a,b)->
 
 a 为当前原始颜色，HEX16进制色值或rgba
 b为要加深的程度  最大为100，最小为0
+
+
+![](http://sjnk88.com/wp-content/uploads/2019/08/DLS01.gif)
+
+![](http://sjnk88.com/wp-content/uploads/2019/08/DLS02.gif)
+
 
 
 
