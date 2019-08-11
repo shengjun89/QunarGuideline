@@ -3,7 +3,14 @@
 ## 1.颜色加深方法函数源码
 
 #颜色加深
-``
+''dark = (a,b)->
+	if b-100>0 then b==100 and if b<0 then b==0 else
+		originColor = new Color(a)
+		newarr = originColor.toHslString().substr(4,14).split(",")
+		newParseArr = []
+		for i in newarr
+			newParseArr.push(parseFloat(i))
+		return new Color(h: newParseArr[0], s: newParseArr[1]*(1-b*0.01)*0.01, l: newParseArr[2]*0.01).toHexString()''
 
 
 #### .调用方法；引入上面代码块，执行命令
