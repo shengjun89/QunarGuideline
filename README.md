@@ -3,6 +3,11 @@
 
 
 ![](http://sjnk88.com/wp-content/uploads/2019/08/DLS00gif.gif)
+
+![](http://sjnk88.com/wp-content/uploads/2019/08/DLS01.gif)
+
+![](http://sjnk88.com/wp-content/uploads/2019/08/DLS02.gif)
+
 ## 1.颜色加深方法函数源码
 
 #颜色加深
@@ -50,11 +55,6 @@ light = (a,b)->
 
 a 为当前原始颜色，HEX16进制色值或rgba
 b为要加深的程度  最大为100，最小为0
-
-
-![](http://sjnk88.com/wp-content/uploads/2019/08/DLS01.gif)
-
-![](http://sjnk88.com/wp-content/uploads/2019/08/DLS02.gif)
 
 
 
