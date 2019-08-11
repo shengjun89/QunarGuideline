@@ -1,7 +1,8 @@
-![](http://sjnk88.com/wp-content/uploads/2019/08/DLS00gif.gif)
 
 # 一、主要函数
 
+
+![](http://sjnk88.com/wp-content/uploads/2019/08/DLS00gif.gif)
 ## 1.颜色加深方法函数源码
 
 #颜色加深
