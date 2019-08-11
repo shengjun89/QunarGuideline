@@ -15,7 +15,7 @@ dark = (a,b)->
 		return new Color(h: newParseArr[0], s: newParseArr[1]*(1-b*0.01)*0.01, l: newParseArr[2]*0.01).toHexString()
 ```
 
-#### .调用方法；引入上面代码块，执行命令
+引入上面代码块，执行命令
 
 `dark(color,value)`
 
@@ -41,7 +41,7 @@ light = (a,b)->
 ```
 
 
-#### 调用方法；引入上面代码块，执行命令
+引入上面代码块，执行命令
 
 `light(color,value)`
 
