@@ -108,6 +108,10 @@ addMouseEvent = (a,arr1,arr2,arr3,layout)->
 # print (new Color(dark(primarycolor,10))).toHslString()
 # print (new Color(light(primarycolor,10))).toHslString()
 
+# print dark("rgba(241,213,123,0.2)",10)
+# print dark("#FF0000",32)
+
+
 #替换json路径，色卡数量并且渲染样式
 	
 creatPalette = (paletteAmount,primarycolor) ->
@@ -797,18 +801,20 @@ mask = new Layer
 sheet01 = new Layer
 	width: 300
 	height: 200
-	x: Align.center
-	y: Align.bottom(200)
+	point: Align.center()
 	backgroundColor: "#FFF"
 	borderRadius: 12
+	scale: 0.6
+	opacity: 0
 
 sheet02 = new Layer
 	width: 300
 	height: 200
-	x: Align.center
-	y: Align.bottom(200)
+	point: Align.center()
 	backgroundColor: "#FFF"
 	borderRadius: 12
+	scale: 0.6
+	opacity: 0
 
 DoneBtn = new Layer
 	parent: sheet02
@@ -873,7 +879,7 @@ ViewBtn = new Layer
 	width: 80
 	height: 32
 	x: Align.right(-24)
-	y: Align.bottom(-16)
+	y: Align.center()
 	borderRadius: 100
 	backgroundColor: "0FCAE2"
 	
@@ -912,10 +918,12 @@ wechatcode.states.stateB =
 avatar.onClick (event, layer) ->
 	wechatcode.stateCycle("stateA","stateB")
 sheet01.states.stateA = 
-	point: Align.center	
+	scale: 1
+	opacity: 1
 
 sheet02.states.stateA = 
-	point: Align.center
+	scale: 1
+	opacity: 1
 	
 sheetTxt01 = new TextLayer
 	parent: sheet02
