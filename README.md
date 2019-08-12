@@ -90,7 +90,7 @@ light("hsla(201, 95, 57, 1)",60)
 1. 点击调色盘编辑你想预览的色值
 2. 点击色卡编辑你想生成的梯度值，根据梯度值自动渲染品牌色的色卡范围，_light_值越高明度越高，_dark_值越低彩度越底
 3. 双击色卡可复制色值
-4. `myDLSurl = "https://lc-OnsG2j7w.cn-n1.lcfile.com/0185410229137d5e7591.json" `是引入的样式表json文件，
+4. `myDLSurl = "[https://lc-OnsG2j7w.cn-n1.lcfile.com/0185410229137d5e7591.json]" `是引入的样式表json文件，
 5. 你可以按此json格式的要求去添加自己设计系统的投影、圆角、调色盘参数，利用在线json生成工具转成url引入替换
 
 
