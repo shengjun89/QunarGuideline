@@ -90,6 +90,8 @@ addClickEvent = (a,arr3)->
 			time: 0.2
 		showValue.value = arr3[@index]
 		DoneBtn.visible = false
+		sheetTxt01.text = "当前颜色"
+		sheetTxt01.x = Align.center()
 		
 
 #为元素添加鼠标经过事件，悬停显示值		
@@ -882,7 +884,7 @@ ViewBtn = new Layer
 	width: 80
 	height: 32
 	x: Align.right(-24)
-	y: Align.center()
+	y: Align.bottom(-16)
 	borderRadius: 100
 	backgroundColor: "0FCAE2"
 	
@@ -950,6 +952,8 @@ preview.onClick (event, layer) ->
 	sheet01.animate "stateA",
 		curve: "cubic-bezier(0.175, 0.885, 0.32, 1.275)"
 		time: 0.2
+	sheetTxt02.text = "梯度值"
+	sheetTxt02.x = Align.center()	
 
 mask.onClick (event, layer) ->
 	mask.visible = false
