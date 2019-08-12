@@ -34,12 +34,12 @@ Framer引入上面代码块，执行命令
 `number`为要加深的程度  0-100区间整数
 
 ```
-`dark("blue",10)`
-`dark("#28AFFA",20)`
-`dark("rgb(255, 0, 102)",30)`
-`dark("rgba(255, 0, 102, 1)",40)`
-`dark("hsl(201, 95, 57)",50)`
-`dark("hsla(201, 95, 57, 1)",60)`
+dark("blue",10)
+dark("#28AFFA",20)
+dark("rgb(255, 0, 102)",30)
+dark("rgba(255, 0, 102, 1)",40)
+dark("hsl(201, 95, 57)",50)
+dark("hsla(201, 95, 57, 1)",60)
 ```
 
 
@@ -71,13 +71,15 @@ Framer引入上面代码块，执行命令
 `color`为当前原始颜色，支持HEX, RGB, RGBA, HSL， HSLA
 `number`为要加深的程度  0-100区间整数
 
-`light("blue",10)`
-`light("#28AFFA",20)`
-`light("rgb(255, 0, 102)",30)`
-`light("rgba(255, 0, 102, 1)",40)`
-`light("hsl(201, 95, 57)",50)`
-`light("hsla(201, 95, 57, 1)",60)`
 
+```
+light("blue",10)
+light("#28AFFA",20)
+light("rgb(255, 0, 102)",30)
+light("rgba(255, 0, 102, 1)",40)
+light("hsl(201, 95, 57)",50)
+light("hsla(201, 95, 57, 1)",60)
+```
 
 
 
