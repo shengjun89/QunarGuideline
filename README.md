@@ -1,7 +1,7 @@
 
 
 
-![](http://sjnk88.com/wp-content/uploads/2019/08/DLS00gif.gif)
+![](http://sjnk88.com/wp-content/uploads/2019/08/DLS00.gif)
 
 ![](http://sjnk88.com/wp-content/uploads/2019/08/DLS01.gif)
 
@@ -27,10 +27,10 @@ dark = (a,b)->
 
 引入上面代码块，执行命令
 
-`dark(color,value)`
+`dark(color,number)`
 
-a 为当前原始颜色，HEX16进制色值或rgba
-b为要加深的程度  最大为100，最小为0
+`color`为当前原始颜色，HEX16进制色值或rgba
+`number`为要加深的程度  0-100区间整数
 
 
 ## 2.颜色减淡方法函数源码
@@ -53,10 +53,10 @@ light = (a,b)->
 
 引入上面代码块，执行命令
 
-`light(color,value)`
+`light(color,number)`
 
-a 为当前原始颜色，HEX16进制色值或rgba
-b为要加深的程度  最大为100，最小为0
+`color`为当前原始颜色，HEX16进制色值或rgba
+`number`为要加深的程度  0-100区间整数
 
 
 
