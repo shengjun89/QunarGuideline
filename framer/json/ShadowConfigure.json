@@ -1,0 +1,23 @@
+{
+  "shadowDeep" : {
+    "blur" : 24,
+    "color" : "#000000",
+    "x":0,
+    "y" : 4,
+    "opacity":0.12
+  },
+  "shadowBase" : {
+    "blur" : 16,
+    "color" : "#000000",
+    "x":0,
+    "y" : 4,
+    "opacity":0.1
+  },
+  "shadowShallow" : {
+    "blur" : 8,
+    "color" : "#000000",
+    "x":0,
+    "y" : 4,
+    "opacity":0.08
+  }
+}

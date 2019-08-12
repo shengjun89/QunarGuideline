@@ -1,0 +1,30 @@
+{
+  "fontHead" : {
+    "size" : 26,
+    "weight" : "bold"
+  },	
+  "fontCaption01" : {
+    "size" : 18,
+    "weight" : "bold"
+  },
+  "fontCaption02" : {
+    "size" : 16,
+    "weight" : "bold"
+  },
+  "fontCaption03" : {
+    "size" : 14,
+    "weight" : "bold"
+  },
+  "fontBody01" : {
+    "size" : 14,
+    "weight" : "regular"
+  },
+  "fontBody02" : {
+    "size" : 12,
+    "weight" : "regular"
+  },
+  "fontTiny" : {
+    "size" : 10,
+    "weight" : "regular"
+  }
+}
