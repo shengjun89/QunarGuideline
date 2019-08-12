@@ -17,7 +17,7 @@
 
 ```
 dark = (a,b)->
-	if b-100>0 then b==100 and if b<0 then b==0 else
+	if b-100>0 then b=100 and if b<0 then b=0 else
 		originColor = new Color(a)
 		newarr = originColor.toHslString().substr(4,14).split(",")
 		newParseArr = []
@@ -52,7 +52,7 @@ dark("hsla(201, 95, 57, 1)",60)
 
 ```
 light = (a,b)->
-	if b-100>0 then b==100 and if b<0 then b==0 else
+	if b-100>0 then b=100 and if b<0 then b=0 else
 		originColor = new Color(a)
 		newarr = originColor.toHslString().substr(4,14).split(",")
 		newParseArr = []
