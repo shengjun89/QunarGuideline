@@ -48,7 +48,7 @@ alphaGroup = []
 
 #颜色加深
 dark = (a,b)->
-	if b-100>0 then b==100 and if b<0 then b==0 else
+	if b-100>0 then b=100 and if b<0 then b=0 else
 		originColor = new Color(a)
 		newarr = originColor.toHslString().substr(4,14).split(",")
 		newParseArr = []
@@ -58,7 +58,7 @@ dark = (a,b)->
 
 #颜色变浅
 light = (a,b)->
-	if b-100>0 then b==100 and if b<0 then b==0 else
+	if b-100>0 then b=100 and if b<0 then b=0 else
 		originColor = new Color(a)
 		newarr = originColor.toHslString().substr(4,14).split(",")
 		newParseArr = []
@@ -68,14 +68,17 @@ light = (a,b)->
 		
 		return new Color(h: newParseArr[0], s: newParseArr[1]*0.01, l: newParseArr[2]*(1+b*0.01)*0.01).toHexString()
 
+avatar.onClick (event, layer) ->
+	window.location = "https://github.com/shengjun89/QunarGuideline/blob/gh-pages/README.md"		
+
+
+
 
 sqrwidth = (Screen.width-whiteSpaceSm*2)/5
 scroll = new ScrollComponent
 	size: Screen.size
 	parent: main
 scroll.scrollHorizontal = false
-
-	
 
 #为元素添加双击事件，复制色值
 addClickEvent = (a,arr3)->
@@ -915,8 +918,10 @@ wechatcode.states.stateB =
 		curve: "cubic-bezier(0.175, 0.885, 0.32, 1.275)"
 		time: 0	
 # 
-avatar.onClick (event, layer) ->
-	wechatcode.stateCycle("stateA","stateB")
+# avatar.onClick (event, layer) ->
+# 	wechatcode.stateCycle("stateA","stateB")
+
+
 sheet01.states.stateA = 
 	scale: 1
 	opacity: 1
