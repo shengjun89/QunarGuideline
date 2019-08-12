@@ -85,7 +85,7 @@ light("hsla(201, 95, 57, 1)",60)
 
 ![](http://sjnk88.com/wp-content/uploads/2019/08/DLS01.gif)
 
-2. 点击色卡编辑你想生成的梯度值，根据梯度值自动渲染品牌色的色卡范围，_light_值越高明度越高，_dark_值越低彩度越底
+2. 点击色卡编辑你想生成的梯度值，根据梯度值自动渲染品牌色的色卡范围，_light_值越高明度越高，_dark_值越高彩度越底
 
 ![](http://sjnk88.com/wp-content/uploads/2019/08/DLS02.gif)
 
