@@ -26,8 +26,15 @@ dark = (a,b)->
 
 `dark(color,number)`
 
-`color`为当前原始颜色，HEX16进制色值或rgba
+`color`为当前原始颜色，支持HEX, RGB, RGBA, HSL， HSLA
 `number`为要加深的程度  0-100区间整数
+
+`dark("blue",10)
+dark("#28AFFA",20)
+dark("rgb(255, 0, 102)",30)
+dark("rgba(255, 0, 102, 1)",40)
+dark("hsl(201, 95, 57)",50)
+dark("hsla(201, 95, 57, 1)",60)`
 
 
 ## 2.颜色减淡方法函数源码
@@ -52,10 +59,15 @@ light = (a,b)->
 
 `light(color,number)`
 
-`color`为当前原始颜色，HEX16进制色值或rgba
+`color`为当前原始颜色，支持HEX, RGB, RGBA, HSL， HSLA
 `number`为要加深的程度  0-100区间整数
 
-
+`light("blue",10)
+light("#28AFFA",20)
+light("rgb(255, 0, 102)",30)
+light("rgba(255, 0, 102, 1)",40)
+light("hsl(201, 95, 57)",50)
+light("hsla(201, 95, 57, 1)",60)`
 
 
 # 二、工具使用
@@ -65,3 +77,6 @@ light = (a,b)->
 3. 双击色卡可复制色值
 4. `myDLSurl = "https://lc-OnsG2j7w.cn-n1.lcfile.com/0185410229137d5e7591.json" `是引入的样式表json文件，
 5. 你可以按此json格式的要求去添加自己设计系统的投影、圆角、调色盘参数，利用在线json生成工具转成url引入替换
+
+
+
