@@ -29,7 +29,7 @@ paletteAmount = 12
 
 primarycolor = "#0FCAE2"
 
-myDLSurl = "https://lc-OnsG2j7w.cn-n1.lcfile.com/75481bf830d3a752c1fd.json"
+myDLSurl = "https://lc-OnsG2j7w.cn-n1.lcfile.com/f7e1bce4a1f6cdaf99c9.json"
 # myDLSurl = "https://lc-OnsG2j7w.cn-n1.lcfile.com/b454df0c4016367db7d4.json"
 
 
